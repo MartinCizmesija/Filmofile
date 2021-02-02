@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="Filmofile.Models.Comment">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAgAAACCAACAAA=</HashCode>
+      <FileName>Models\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Country">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Country_movie">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAEAAAAAACAAA=</HashCode>
+      <FileName>Models\Country_movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Favourite">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAACAAACAAA=</HashCode>
+      <FileName>Models\Favourite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.ErrorViewModel">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ErrorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Genre">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Genre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Genre_movie">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAQAQAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\Genre_movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Keyword">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Keyword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Keyword_movie">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAQAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>Models\Keyword_movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Language">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAgAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Models\Language.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Language_movie">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAwAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\Language_movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Movie">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEEAQKAABCAgCkAEAIAAAAAQAAGAAEAAgggAI=</HashCode>
+      <FileName>Models\Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.MovieDBContext">
+    <Position X="9.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAECQASEABCEAKkAAAAGAIAAQAAEAAAAAiiAAI=</HashCode>
+      <FileName>Models\MovieDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Multimedia">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAACAAA=</HashCode>
+      <FileName>Models\Multimedia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Nomination">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAgAAAAAAAAAAQAAAIAAAAAQAAACAgA=</HashCode>
+      <FileName>Models\Nomination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Person">
+    <Position X="6" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEEAAIAAAAAAAAAAAAAAAACAACAEA=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Role">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAgEIAAAAAAAAAAAAAAAAACAAAAAAII=</HashCode>
+      <FileName>Models\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Role_movie">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\Role_movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Similar">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAABAAAAAABAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\Similar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Technician">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAgAAAAAAIQ=</HashCode>
+      <FileName>Models\Technician.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Technician_movie">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAQ=</HashCode>
+      <FileName>Models\Technician_movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.User">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAABAAQAAAAgAAAAAAAgCAAAEAQAgAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.User_rating">
+    <Position X="4.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAGAAACAAA=</HashCode>
+      <FileName>Models\User_rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Models.Watchlist">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAACAAACAAA=</HashCode>
+      <FileName>Models\Watchlist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

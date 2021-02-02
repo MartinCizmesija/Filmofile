@@ -1,0 +1,29 @@
+﻿@model Filmofile.Models.Multimedia
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center">Add new picture</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MovieId" class="control-label"></label>
+                <input asp-for="MovieId" class="form-control" />
+                <span asp-validation-for="MovieId" class="text-danger"></span>
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MultimediaLink" class="control-label"></label>
+                <input asp-for="MultimediaLink" class="form-control" />
+                <span asp-validation-for="MultimediaLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+    </div>
+</div>

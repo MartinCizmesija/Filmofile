@@ -1,0 +1,57 @@
+﻿@model Filmofile.ViewModels.MoviesViewModel
+
+@{
+    ViewData["Title"] = "Movie";
+}
+
+
+<h1 class="text-center btn-primary">Movies in database</h1>
+
+<div>
+    <a class="btn btn-success" asp-action="Create">Add new movie</a>
+
+    <pager page-info="@Model.PagingInfo" page-action="Index" page-title="Enter page"
+           class="float-right">
+    </pager>
+
+    <span class="text-white float-right">aa</span>
+</div>
+
+<table class="table table-sm table-striped table-hover">
+    <thead>
+        <tr>
+            @{
+                string[] nazivi = { "Movie name", "Critics Rating", "Number of critics who rated", "UserRating", "Number of users who rated", "Details" };
+                for (int i = 1; i <= nazivi.Length; i++)
+                {
+                    <th>
+                        <a asp-route-sort="@i"
+                           asp-route-page="@Model.PagingInfo.CurrentPage"
+                           asp-route-ascending="@(Model.PagingInfo.Sort == i ? !Model.PagingInfo.Ascending : true)">
+                            @nazivi[i - 1]
+                        </a>
+                    </th>
+                }
+            }
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model.Movies)
+        {
+            <tr style="cursor: pointer" onclick="window.location.herf='@Url.Action("Details", "Movie")">
+                <td class="text-left">@movie.MovieName</td>
+                <td class="text-left">@movie.CriticsRating</td>
+                <td class="text-left">@movie.NumberOfCritics</td>
+                <td class="text-left">@movie.UserRating</td>
+                <td class="text-left">@movie.NumberOfUsers</td>
+                <td class="btn-group">
+                    <a asp-action="Details"
+                       asp-route-id="@movie.MovieId"
+                       class="btn btn-sm" title="Details"><i class="btn btn-info"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

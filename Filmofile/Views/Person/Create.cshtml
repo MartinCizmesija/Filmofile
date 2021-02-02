@@ -1,0 +1,43 @@
+﻿@model Filmofile.Models.Person
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="row justify-content-center">Add new person</h1>
+
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PersonName" class="control-label"></label>
+                <input asp-for="PersonName" class="form-control" />
+                <span asp-validation-for="PersonName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersonSurname" class="control-label"></label>
+                <input asp-for="PersonSurname" class="form-control" />
+                <span asp-validation-for="PersonSurname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birth" class="control-label"></label>
+                <input asp-for="Birth" class="form-control" />
+                <span asp-validation-for="Birth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Biography" class="control-label"></label>
+                <input asp-for="Biography" class="form-control" />
+                <span asp-validation-for="Biography" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Data">Cancel</a>
+</div>

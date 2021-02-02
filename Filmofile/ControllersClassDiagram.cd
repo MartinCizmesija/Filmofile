@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Filmofile.Controllers.GenreController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\GenreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.HomeController">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.KeywordController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\KeywordController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.LoginController">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\LoginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.MovieController">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQGAAAAAAABYAAAAgAAAAAAAAAAAEAKkAEAAAAAABA=</HashCode>
+      <FileName>Controllers\MovieController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.PersonController">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\PersonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.RoleController">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\RoleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.SignupController">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\SignupController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.TechnicianController">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\TechnicianController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.CountryController">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CountryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.DataController">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\DataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.LanguageController">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\LanguageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.MultimediaController">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\MultimediaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filmofile.Controllers.CommentController">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAABAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CommentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

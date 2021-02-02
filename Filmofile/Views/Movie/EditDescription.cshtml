@@ -1,0 +1,55 @@
+﻿@model Filmofile.ViewModels.EditDescriptionViewModel
+
+@{
+    ViewData["Title"] = "EditDescription";
+}
+
+<h1 class="text-center btn-primary">@Html.DisplayFor(model => model.Movie.MovieName)</h1>
+<h4 class="text-center btn-success">Edit description</h4>
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="EditDescription" asp-route-id="@Model.Movie.MovieId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Movie.MovieId" />
+
+            <div class="form-group">
+                <label asp-for="GenreId">Genre</label>
+                <div><span asp-validation-for="GenreId" class="text-danger"></span></div>
+                <select class="form-control" asp-for="GenreId" asp-items="ViewBag.Genres">
+                    <option disabled selected value="">Add genre</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="KeywordId">Keyword</label>
+                <div><span asp-validation-for="KeywordId" class="text-danger"></span></div>
+                <select class="form-control" asp-for="KeywordId" asp-items="ViewBag.Keywords">
+                    <option disabled selected value="">Add keyword</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LanguageId">Language</label>
+                <div><span asp-validation-for="LanguageId" class="text-danger"></span></div>
+                <select class="form-control" asp-for="LanguageId" asp-items="ViewBag.Languages">
+                    <option disabled selected value="">Add language</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CountryId">Country</label>
+                <div><span asp-validation-for="CountryId" class="text-danger"></span></div>
+                <select class="form-control" asp-for="CountryId" asp-items="ViewBag.Countries">
+                    <option disabled selected value="">Add country</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-success" />
+                <a asp-action="EditDetailsNav" asp-route-id="@Model.Movie.MovieId" class="btn btn-primary">Back to edit</a>
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@Model.Movie.MovieId">Back to details</a>
+            </div>
+        </form>
+    </div>
+</div>

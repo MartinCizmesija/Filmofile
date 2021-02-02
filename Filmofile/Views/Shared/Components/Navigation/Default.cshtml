@@ -1,0 +1,48 @@
+﻿<ul class="navbar-nav flexing">
+
+    <li class="nav-item">
+        <a class="nav-link"
+           asp-action="Index" asp-controller="Home">
+            Home
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link @(ViewBag.Controller == "Movies" ? "active": "")"
+           asp-action="Index" asp-controller="Movie">
+            Movies
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <form asp-action="Index" asp-controller="Movie">
+            <p>
+                <input type="text" name="SearchString" placeholder="Search movie">
+                <input type="submit" value="Go" />
+            </p>
+        </form>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link @(ViewBag.Controller == "Data" ? "active": "")"
+           asp-action="Index" asp-controller="Data">
+            Add data
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link @(ViewBag.Controller == "Signup" ? "active": "")"
+           asp-action="Index" asp-controller="Signup">
+            Singup
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link @(ViewBag.Controller == "Login" ? "active": "")"
+           asp-action="Index" asp-controller="Login">
+            Login
+        </a>
+    </li>
+
+
+</ul>

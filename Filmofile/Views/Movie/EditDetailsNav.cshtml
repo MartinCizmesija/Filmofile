@@ -1,0 +1,16 @@
+﻿@model Filmofile.Models.Movie
+@{
+    ViewData["Title"] = "EditDetailsNav";
+}
+
+    <h1 class="text-center">@Html.DisplayFor(model => model.MovieName)</h1>
+    <h4 class="text-center">Edit details</h4>
+
+    <div class="text-md-center">
+        <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        <a class="btn btn-primary" asp-action="Details" asp-route-id="@Model.MovieId">Back to details</a>
+        <a class="btn btn-success" asp-action="Edit" asp-route-id="@Model.MovieId">Edit basic data</a>
+        <a class="btn btn-success" asp-action="EditDescription" asp-route-id="@Model.MovieId">Edit description</a>
+        <a class="btn btn-success" asp-action="EditDescription" asp-route-id="@Model.MovieId">Edit roles</a>
+        <a class="btn btn-success" asp-action="EditDescription" asp-route-id="@Model.MovieId">Edit crew</a>
+    </div>
